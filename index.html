@@ -185,7 +185,7 @@
                 </section>
 
                 <section>
-                <h1>[demo gif coming here]</h1>
+                <img src="img/cli.gif" style="max-width:90% !important">
                     <aside class="notes">
                     Let's start with the command line...
 As with most command line utilities, -h will get you a list of commands...
@@ -198,7 +198,7 @@ It looks like this
 open General_Conformance.mkv
 
 I already loaded in some XSL of a custom policy we made to test against, let's check that out first
-mediaconch -mc General_Conformance.mkv -p General_Conformance.xsl
+mediaconch General_Conformance.mkv General_Conformance.xsl
 
 You can get regular MediaInfo results...
 mediaconch -mi General_Conformance.mkv
@@ -208,7 +208,14 @@ mediaconch -mt General_Conformance.mkv
 
 And this will display on screen, but export options are available in XML and HTML too
 
-mediaconch -mc -fh General_Conformance.mkv > test.htm
+mediaconch -mc -fh General_Conformance.mkv > test.html
+                    </aside>
+                </section>
+
+                <section>
+                <img src="img/climeta.gif" style="max-width:90% !important">
+                    <aside class="notes">
+                    I recorded the screen and then I ran mediaconch -mi on the file I just recorded.
                     </aside>
                 </section>
 
