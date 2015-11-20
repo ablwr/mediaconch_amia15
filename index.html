@@ -355,6 +355,32 @@ mediaconch -mc -fh General_Conformance.mkv > test.html
                     Dave: lets metadata from the firehose
                     </aside>
                 </section>
+
+                <section>
+                    <h2>MediaTrace on DPX</h2>
+                    <pre><code>
+<block offset="1920" name="Television information" size="128">
+    <data offset="1920" name="SMPTE time code">4294967295</data>
+    <data offset="1924" name="SMPTE user bits">4294967295</data>
+    <data offset="1928" name="Interlace" moreinfo="2:1 interlace">255</data>
+    <data offset="1929" name="Field number">255</data>
+    <data offset="1930" name="Video signal standard" moreinfo="Undefined">0</data>
+    <data offset="1931" name="Zero">255</data>
+    <data offset="1932" name="Horizontal sampling rate (Hz)">0.000</data>
+    <data offset="1936" name="Vertical sampling rate (Hz)">0.000</data>
+    <data offset="1940" name="Temporal sampling rate or frame rate (Hz)">0.000</data>
+    <data offset="1944" name="Time offset from sync to first pixel (ms)">0.000</data>
+    <data offset="1948" name="Gamma">0.000</data>
+    <data offset="1952" name="Black level code value">0.000</data>
+    <data offset="1956" name="Black gain">0.000</data>
+    <data offset="1960" name="Breakpoint">0.000</data>
+    <data offset="1964" name="Reference white level code value">0.000</data>
+    <data offset="1968" name="Integration time (s)">0.000</data>
+    <data offset="1972" name="Reserved for future use">(76 bytes)</data>
+</block>
+                    </code></pre>
+                    <aside class="notes">
+                    Dave: top level of ffv1 slice
                     </aside>
                 </section>
 
